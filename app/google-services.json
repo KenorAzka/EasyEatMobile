@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648526145635",
+    "project_id": "makanmudah1",
+    "storage_bucket": "makanmudah1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648526145635:android:7e7744c61fb1b6d2aab056",
+        "android_client_info": {
+          "package_name": "com.example.aplikasipesanmakanan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRvGF0waVvGaxLAJy1fSvsK8GmEdq_kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

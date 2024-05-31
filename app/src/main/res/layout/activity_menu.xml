@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCart"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff4444"
+            android:layout_marginLeft="250dp"
+            app:srcCompat="@drawable/cart" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabLogout"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ff4444"
+            android:layout_marginLeft="310dp"
+            app:srcCompat="@drawable/logout" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makanan"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="35dp"
+        android:textColor="#000000"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_penyetan"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_height="280dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minuman"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_drinks"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginBottom="15dp"/>
+
+
+
+
+</LinearLayout>

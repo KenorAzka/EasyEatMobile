@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EasyEat</string>
+    <string name="title_login">EasyEat</string>
+    <string name="title_signup">Sign Up</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_cart_detail">Cart Detail</string>
+    <string name="title_menu_detail">Menu Detail</string>
+</resources>
